@@ -1,0 +1,86 @@
+const products = [
+    {
+        productName: "OXFORD SHIRT TOMMY HILFIGER",
+        category: "Shirts",
+        price: "30",
+        image: "https://picsum.photos/seed/oxford.webp/500/500",
+        size: ['S', 'M', 'XXL'],
+        sale: true,
+    },
+    {
+        productName: "GANT GINGHAM SHIRT",
+        category: "Shirts",
+        price: "49",
+        image: "https://picsum.photos/seed/gant.webp/500/500",
+        size: ['L'],
+        sale: false,
+    },
+    {
+        productName: "LUMBERJACK SHIRT",
+        category: "Shirts",
+        price: "49",
+        image: "https://picsum.photos/seed/lumberjackshirt.webp/500/500",
+        size: ['S'],
+        sale: false,
+    },
+    {
+        productName: "BOSS SLIM FIT JEANS",
+        category: "Jeans",
+        price: "99",
+        image: "https://picsum.photos/seed/boss.webp/500/500",
+        size: ['44', '52'],
+        sale: false,
+    },
+    {
+        productName: "ARMANI POCKETS PANT",
+        category: "Jeans",
+        price: "129",
+        image: "https://picsum.photos/seed/armani.webp/500/500",
+        size: ['48', '50', '52'],
+        sale: false,
+    },
+    {
+        productName: "RALPH LAUREN AERA LACE",
+        category: "Shoes",
+        price: "129",
+        image: "https://picsum.photos/seed/polo.webp/500/500",
+        size: ['38', '39', '43', '44'],
+        sale: true,
+    },
+    {
+        productName: "RALPH LAUREN HERITAGE",
+        category: "Shoes",
+        price: "110",
+        image: "https://picsum.photos/seed/polo2.webp/500/500",
+        size: ['44'],
+        sale: false,
+    },
+    {
+        productName: "CLOSURE JACKET LONDON",
+        category: "Jackets",
+        price: "189",
+        image: "https://picsum.photos/seed/london.webp/500/500",
+        size: ['L', 'XL'],
+        sale: false,
+    },
+    {
+        productName: "JACK JONES LONG PUFFER",
+        category: "Jackets",
+        price: "77",
+        image: "https://picsum.photos/seed/jack.webp/500/500",
+        size: ['S', 'M', 'L', 'XL'],
+        sale: false,
+    },
+    {
+        productName: "POLO RALPH LAUREN ROUND",
+        category: "Sunglasses",
+        price: "111",
+        image: "https://picsum.photos/seed/sunRalph.webp/500/500",
+        size: [''],
+        sale: true,
+    },
+]
+
+export default defineEventHandler(() => {
+    return products;
+})
